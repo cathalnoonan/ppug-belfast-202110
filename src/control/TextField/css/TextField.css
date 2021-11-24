@@ -1,0 +1,14 @@
+.TextField input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: calc(0.5rem + 1px);
+    border-radius: 0;
+    border: none;
+}
+
+.TextField input:hover,
+.TextField input:focus,
+.TextField input:active {
+    padding: 0.5rem;
+    border: 1px solid black;
+}
